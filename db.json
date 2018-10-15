@@ -1,15 +1,103 @@
 
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }, {
-      "id": 2,
-      "title": "My second post"
-    }
-  ],
-  "profile": {
-    "name": "test api"
-  }
+  "courses": [{
+    "id": 1,
+    "title": "Web Development Immersive",
+    "session": "Fall 2018",
+    "isPartTime": false,
+    "classDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+  }, {
+    "id": 2,
+    "title": "Web Development",
+    "session": "Summer 2018",
+    "isPartTime": true,
+    "classDays": ["Monday", "Wednesday"]
+  }, {
+    "id": 3,
+    "title": "JavaSript",
+    "session": "Fall 2018",
+    "isPartTime": true,
+    "classDays": ["Tuesday", "Thursday"]
+  }],
+  "students": [{
+    "id": 1,
+    "name": "Ross Gellar",
+    "address": {
+      "street": "707 Dovercourt",
+      "city": "Toronto"
+    },
+    "courses": ["JavaSript", "Web Development"]
+  }, {
+    "id": 2,
+    "name": "Jack Pearson",
+    "address": {
+      "street": "47 Bathurst St",
+      "city": "Toronto"
+    },
+    "courses": ["JavaSript", "Web Development"]
+  }, {
+    "id": 3,
+    "name": "Nina Proudman",
+    "address": {
+      "street": "1979 Glenwood Rd",
+      "city": "Toronto"
+    },
+    "courses": ["JavaSript", "Web Development", "Web Development Immersive"]
+  }, {
+    "id": 4,
+    "name": "Jess Day",
+    "address": {
+      "street": "6401 Deer Run",
+      "city": "Toronto"
+    },
+    "courses": ["JavaSript", "Web Development Immersive"]
+  }, {
+    "id": 5,
+    "name": "Rachel Green",
+    "address": {
+      "street": "230 Cedartree Cres",
+      "city": "Mississauga"
+    },
+    "courses": ["JavaSript", "Web Development", "Web Development Immersive"]
+  }, {
+    "id": 6,
+    "name": "Damon Salvatore",
+    "address": {
+      "street": "1772 Claypine Rise",
+      "city": "Toronto"
+    },
+    "courses": ["Web Development"]
+  }, {
+    "id": 7,
+    "name": "Juliette Barnes",
+    "address": {
+      "street": "2 Birchlea Cres",
+      "city": "Toronto"
+    },
+    "courses": ["Web Development", "Web Development Immersive"]
+  }, {
+    "id": 8,
+    "name": "Robb Stark",
+    "address": {
+      "street": "41 Foxtrot Lane",
+      "city": "Toronto"
+    },
+    "courses": ["JavaSript", "Web Development", "Web Development Immersive"]
+  }, {
+    "id": 9,
+    "name": "Dwight Schrute",
+    "address": {
+      "street": "32 Sugarbush Court",
+      "city": "Hamilton"
+    },
+    "courses": ["JavaSript"]
+  }, {
+    "id": 10,
+    "name": "Winston Shmidt",
+    "address": {
+      "street": "9929 Evergreen Terrace",
+      "city": "Toronto"
+    },
+    "courses": ["JavaSript", "Web Development", "Web Development Immersive"]
+  }]
 }
